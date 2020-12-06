@@ -53,11 +53,11 @@ function Quotes() {
         className='text-black font-bold text-xl mx-auto block py-2 px-4'
       >
         <option value=''>All Quotes - Select Author</option>
-        <option value='/marcus%20aurelius'>Marcus Aurelius</option>
-        <option value='/seneca'>Seneca</option>
-        <option value='/epictetus'>Epictetus</option>
-        <option value='/cato'>Cato</option>
-        <option value='/zeno'>Zeno</option>
+        <option value='/Marcus%20Aurelius'>Marcus Aurelius</option>
+        <option value='/Seneca'>Seneca</option>
+        <option value='/Epictetus'>Epictetus</option>
+        <option value='/Cato'>Cato</option>
+        <option value='/Zeno'>Zeno</option>
       </select>
 
       <ul className='quotesList'>

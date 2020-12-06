@@ -15,7 +15,7 @@ function Home() {
             Documentation
           </Link>
           <Link to='/quotes' className='btn btn-primary'>
-            All Quotes{" "}
+            All Quotes
           </Link>
         </div>
       </div>

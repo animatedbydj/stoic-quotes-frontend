@@ -46,7 +46,7 @@ function Docs() {
             href='https://stoicquotesapi.com/v1/api/quotes/seneca'
             className='breakLink'
           >
-            https://stoicquotesapi.com/v1/api/quotes/<strong>seneca</strong>
+            https://stoicquotesapi.com/v1/api/quotes/<strong>Seneca</strong>
           </a>{" "}
           returns 10 quotes from Seneca.
         </p>

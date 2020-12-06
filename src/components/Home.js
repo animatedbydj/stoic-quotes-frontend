@@ -12,7 +12,7 @@ function Home() {
           a random quote from a stoic philosopher.
         </p>
         <div className='cta-buttons w-1/2 flex flex-wrap justify-evenly'>
-          <Link to='/docs' className='btn mb-4'>
+          <Link to='/docs' className='btn mb-2 md:mb-0'>
             Documentation
           </Link>
           <Link to='/quotes' className='btn btn-primary'>

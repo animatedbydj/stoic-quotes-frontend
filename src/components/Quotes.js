@@ -48,7 +48,7 @@ function Quotes() {
   return (
     <div>
       <h1 className='text-2xl text-center mb-6'>
-        Quotes from ancient stoic philospohers. Filter by author.
+        Quotes from ancient stoic philosophers. Filter by author.
       </h1>
 
       <select

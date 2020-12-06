@@ -11,10 +11,10 @@ function Docs() {
         <p className='bg-white p-4 mt-6 mb-20 '>
           <strong>GET</strong> request to{" "}
           <a
-            href='https://stoicquotesapi.com/api/quotes'
+            href='https://stoicquotesapi.com/v1/api/quotes'
             className='font-bold breakLink'
           >
-            https://stoicquotesapi.com/api/quotes
+            https://stoicquotesapi.com/v1/api/quotes
           </a>{" "}
           returns 10 stoic quotes in json format with pagination links, current
           page, & total records.
@@ -26,10 +26,10 @@ function Docs() {
         <p className='bg-white p-4 mt-6 mb-20'>
           <strong>GET</strong> request to{" "}
           <a
-            href='https://stoicquotesapi.com/api/quotes?page=2'
+            href='https://stoicquotesapi.com/v1/api/quotes?page=2'
             className='breakLink'
           >
-            https://stoicquotesapi.com/api/quotes<strong>?page=2</strong>
+            https://stoicquotesapi.com/v1/api/quotes<strong>?page=2</strong>
           </a>{" "}
           returns 10 more quotes.
         </p>
@@ -43,10 +43,10 @@ function Docs() {
           <br />
           <strong>GET</strong> request to{" "}
           <a
-            href='https://stoicquotesapi.com/api/quotes/seneca'
+            href='https://stoicquotesapi.com/v1/api/quotes/seneca'
             className='breakLink'
           >
-            https://stoicquotesapi.com/api/quotes/<strong>seneca</strong>
+            https://stoicquotesapi.com/v1/api/quotes/<strong>seneca</strong>
           </a>{" "}
           returns 10 quotes from Seneca.
         </p>
@@ -56,10 +56,10 @@ function Docs() {
         <p className='bg-white py-4 px-2 mt-6'>
           <strong>GET</strong> request to{" "}
           <a
-            href='https://stoicquotesapi.com/api/quotes/random'
+            href='https://stoicquotesapi.com/v1/api/quotes/random'
             className='breakLink'
           >
-            https://stoicquotesapi.com/api/quotes/<strong>random</strong>
+            https://stoicquotesapi.com/v1/api/quotes/<strong>random</strong>
           </a>{" "}
           will return a single random quote.
         </p>

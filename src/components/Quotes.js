@@ -5,7 +5,7 @@ function Quotes() {
   const [isLoaded, setisLoaded] = useState(false);
   const [currentPage, setcurrentPage] = useState(1);
   const [authorQuery, setAuthorQuery] = useState("");
-  const URL = `https://stoicquotesapi/v1/api/quotes${authorQuery}?page=${currentPage}`;
+  const URL = `https://stoicquotesapi.com/v1/api/quotes${authorQuery}?page=${currentPage}`;
   const [quotes, setQuotes] = useState([]);
 
   useEffect(() => {
@@ -28,7 +28,6 @@ function Quotes() {
     setAuthorQuery(e.target.value);
 
     setcurrentPage(1);
-    console.log(URL);
   };
   var pagebuttons = [];
   for (let i = 1; i < pageCount; i++) {

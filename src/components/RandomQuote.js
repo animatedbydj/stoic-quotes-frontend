@@ -11,7 +11,7 @@ function RandomQuote() {
   useEffect(() => {
     const fetchQuote = async () => {
       const { data } = await axios.get(
-        "http://localhost:8000/api/quotes/random"
+        "https://stoicquotesapi/v1/api/quotes/random"
       );
 
       setQuote(data);

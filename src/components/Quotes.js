@@ -5,7 +5,7 @@ function Quotes() {
   const [isLoaded, setisLoaded] = useState(false);
   const [currentPage, setcurrentPage] = useState(1);
   const [authorQuery, setAuthorQuery] = useState("");
-  const URL = `http://localhost:8000/api/quotes${authorQuery}?page=${currentPage}`;
+  const URL = `https://stoicquotesapi/v1/api/quotes${authorQuery}?page=${currentPage}`;
   const [quotes, setQuotes] = useState([]);
 
   useEffect(() => {

@@ -124,10 +124,15 @@ kbd {
 
 .paginationButtons button {
   outline: 1px solid black;
+  @apply px-6 mx-2;
+  transition: all 0.5s ease-out;
+}
+.paginationButtons button:hover {
+  @apply bg-white text-black;
 }
 .paginationButtons button:focus {
   outline: 1px solid white;
 }
 .paginationButtons button:nth-child(even) {
-  background: rgb(48, 47, 47);
+  /* @apply bg-gray-800; */
 }

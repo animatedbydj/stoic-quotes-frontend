@@ -32,7 +32,11 @@ function Quotes() {
   var pagebuttons = [];
   for (let i = 1; i < pageCount; i++) {
     pagebuttons.push(
-      <button key={i} onClick={() => setcurrentPage(i)} className='px-6 mx-2'>
+      <button
+        key={i}
+        onClick={() => setcurrentPage(i)}
+        className={currentPage === i ? "bg-white text-black" : null}
+      >
         {i}
       </button>
     );

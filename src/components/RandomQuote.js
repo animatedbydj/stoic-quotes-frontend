@@ -10,11 +10,11 @@ function RandomQuote() {
 
   useEffect(() => {
     const fetchQuote = async () => {
-      const { data } = await axios.get(
-        "https://stoicquotesapi.com/v1/api/quotes/random"
-      );
-
-      setQuote(data);
+      fetch("https://stoicquotesapi.com/v1/api/quotes/random")
+        .then((response) => response.json())
+        .then((data) => {
+          setQuote(data);
+        });
     };
     fetchQuote();
   }, []);

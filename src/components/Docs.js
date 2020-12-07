@@ -2,7 +2,7 @@ import React from "react";
 
 function Docs() {
   return (
-    <section className='w-full md:w-10/12 mx-auto pb-32'>
+    <section className='w-10/12 mx-auto pb-32'>
       <h1 className='text-3xl'>The Stoic Quotes API</h1>
       <div className='text-black p-4 mt-4'>
         <h2 className='text-2xl font-bold bg-white p-4'>

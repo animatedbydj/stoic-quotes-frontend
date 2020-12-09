@@ -11,7 +11,7 @@ function Home() {
           stoic philosopher.
         </p>
         <div className='cta-buttons w-1/2 flex flex-wrap justify-evenly'>
-          <Link to='/docs' className='btn mb-4 md:mb-0'>
+          <Link to='/docs' className='btn mb-6 md:mb-0'>
             Documentation
           </Link>
           <Link to='/quotes' className='btn btn-primary'>
